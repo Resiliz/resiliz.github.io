@@ -40,8 +40,10 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Push to GitHub Pages
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Resiliz/resiliz.github.io.git gh-pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public
