@@ -50,6 +50,15 @@ jobs:
 
       - name: Setup Project
         run: npm run project-setup
+      - name: Debug Jekyll settings
+        run: |
+          echo "Jekyll version:"
+          jekyll -v
+          echo "Installed Jekyll plugins:"
+          gem list | grep jekyll
+          echo "Jekyll configuration:"
+          cat _config.yml || echo "No _config.yml found"
+
 
       - name: Install npm dependencies
         run: npm install
