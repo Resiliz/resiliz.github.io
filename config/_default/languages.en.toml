@@ -1,0 +1,35 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Resiliz"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "My awesome website"
+  copyright = "© 2024 Resiliz. All rights reserved."
+
+ [params.author]
+   name = "Resiliz"
+   email = "virajamara@gmail.com"
+   image = "img/logo.jpg"
+   imageQuality = 96
+   headline = "Resilient and Efficient"
+   bio = "Results-driven Full Stack Developer with 8+ years of experience in startups and large-scale companies. Strong problem-solver, agile team player, and proactive communicator. Passionate about lifelong learning, innovation, and building scalable software solutions."
+   links = [
+     { email = "mailto:hello@your_domain.com" },
+     { link = "https://link-to-some-website.com/" },
+     { blogger = "https://username.blogspot.com/" },
+     { discord = "https://discord.gg/invitecode" },
+     { github = "https://github.com/username" },
+     { gitlab = "https://gitlab.com/username" },
+     { lastfm = "https://lastfm.com/user/username" },
+     { linkedin = "https://linkedin.com/in/username" },
+     { medium = "https://medium.com/username" },
+     { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+   ]
