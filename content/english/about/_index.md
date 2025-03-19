@@ -16,12 +16,23 @@ Welcome! I’m **Viraj Amarasinghe**, a passionate and results-driven **Senior F
 
 ## 💻 **What I Do**  
 
-### 🔹 **Senior Full Stack Developer – Freelancer (Dec 2024 – Present)**  
-**PHP 8.3 | Laravel 10 | AWS | MySQL | Redis | Event-Driven Architecture**  
-- Migrated **LureSocial.com** from Laravel 5 to Laravel 10 and PHP 5.6 to PHP 8.3, ensuring security and compatibility.  
-- Enhanced **performance** with **Redis caching** and optimized database queries.  
-- Implemented **authentication and authorization** for better security.  
-- Migrated application from **shared hosting to AWS EC2** for scalability.  
+{{< timeline >}}
+
+{{< timelineItem icon="star" header="Senior Full Stack Developer – Freelancer" badge="Dec 2024 – Present" >}}
+
+
+PHP 8.3 | Laravel 10 | AWS | MySQL | Redis | Event-Driven Architecture 
+
+<ul>
+  <li>Migrated **LureSocial.com** from Laravel 5 to Laravel 10 and PHP 5.6 to PHP 8.3, ensuring security and compatibility.  </li>
+  <li>Enhanced **performance** with **Redis caching** and optimized database queries.  </li>
+  <li>Implemented **authentication and authorization** for better security.</li>
+  <li>Migrated application from **shared hosting to AWS EC2** for scalability.</li>
+</ul>
+
+{{< /timelineItem >}}
+
+{{< /timeline >}}
 
 ### 🔹 **Senior Backend Engineer – Freelancer (Aug 2024 – Dec 2024)**  
 **Symfony 6 | Docker | Elasticsearch | Doctrine | Hexagonal Architecture**  
@@ -62,6 +73,9 @@ Welcome! I’m **Viraj Amarasinghe**, a passionate and results-driven **Senior F
 
 ---
 
+
+
+
 ## 🔥 **Core Skills & Expertise**  
 ✅ **PHP, Laravel, Symfony** – Advanced expertise in backend development.  
 ✅ **JavaScript, React, TypeScript** – Full stack application development.  
@@ -84,6 +98,7 @@ Welcome! I’m **Viraj Amarasinghe**, a passionate and results-driven **Senior F
 [🔗 Upwork](https://www.upwork.com/freelancers/~01ba7b432ee627550e)  
 [🔗 StackOverflow](https://stackoverflow.com/users/3755369/viraj-amarasinghe)  
 [🔗 Medium](https://medium.com/@sameeraviraj)  
+
 
 ---
 

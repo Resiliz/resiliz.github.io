@@ -14,7 +14,7 @@ Over the years, I have worked with **startups, enterprises, and global businesse
 ##
 
 {{< gallery >}}
-  <img src="gallery/lure-logo.png" class="grid-w50 md:grid-w33 xl:grid-w25 p-1" />
-  <img src="gallery/deeper_signals.svg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/lure-logo.png" class="grid-w33" />
+  <img src="gallery/deeper_signals.svg" class="grid-w33" />
   
 {{< /gallery >}}
