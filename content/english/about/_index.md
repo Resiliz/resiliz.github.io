@@ -20,61 +20,85 @@ Welcome! I’m **Viraj Amarasinghe**, a passionate and results-driven **Senior F
 
 {{< timelineItem icon="star" header="Senior Full Stack Developer – Freelancer" badge="Dec 2024 – Present" >}}
 
-
-PHP 8.3 | Laravel 10 | AWS | MySQL | Redis | Event-Driven Architecture 
+**PHP 8.3 | Laravel 10 | AWS | MySQL | Redis | Event-Driven Architecture**
 
 <ul>
-  <li>Migrated **LureSocial.com** from Laravel 5 to Laravel 10 and PHP 5.6 to PHP 8.3, ensuring security and compatibility.  </li>
-  <li>Enhanced **performance** with **Redis caching** and optimized database queries.  </li>
-  <li>Implemented **authentication and authorization** for better security.</li>
-  <li>Migrated application from **shared hosting to AWS EC2** for scalability.</li>
+  <li>Migrated <strong>LureSocial.com</strong> from Laravel 5 to Laravel 10 and PHP 5.6 to PHP 8.3, ensuring security and compatibility.</li>
+  <li>Enhanced <strong>performance</strong> with <strong>Redis caching</strong> and optimized database queries.</li>
+  <li>Implemented <strong>authentication and authorization</strong> for better security.</li>
+  <li>Migrated application from <strong>shared hosting to AWS EC2</strong> for scalability.</li>
+</ul>
+
+{{< /timelineItem >}}
+
+{{< timelineItem icon="star" header="Senior Backend Engineer – Freelancer" badge="Aug 2024 – Dec 2024" >}}
+
+**Symfony 6 | Docker | Elasticsearch | Doctrine | Hexagonal Architecture**
+
+<ul>
+  <li>Redesigned <strong>demographic data storage</strong>, improving efficiency for <strong>1M+ users</strong>.</li>
+  <li>Built <strong>robust data export functionality</strong> for large-scale reporting.</li>
+  <li>Implemented <strong>Elasticsearch</strong> for lightning-fast search and data retrieval.</li>
+  <li>Applied <strong>SOLID principles</strong>, boosting maintainability and scalability.</li>
+</ul>
+
+{{< /timelineItem >}}
+
+{{< timelineItem icon="star" header="Senior Full Stack Developer – Subscriby AB, Stockholm" badge="Jan 2024 – Jun 2024" >}}
+
+**TypeScript | React 18 | Remix | Tailwind CSS | GraphQL | PostgreSQL**
+
+<ul>
+  <li>Developed a <strong>Subscription Management System MVP</strong> within <strong>2 months</strong>.</li>
+  <li>Conducted <strong>code reviews</strong>, achieving <strong>80% reliability</strong> and stability.</li>
+  <li>Created <strong>custom Shopify-integrated applications</strong>, securing <strong>3 clients</strong> post-development.</li>
+</ul>
+
+{{< /timelineItem >}}
+
+{{< timelineItem icon="star" header="Senior Software Engineer – Valuein (France)" badge="Aug 2020 – Jun 2023" >}}
+
+**Symfony 3.4 | PHP 7 | Microservices | Stripe | Zuora | REST APIs**
+
+<ul>
+  <li>Developed and optimized a <strong>SaaS platform</strong> for <strong>subscription-based businesses</strong>.</li>
+  <li>Enhanced <strong>test coverage to 80%</strong> with automated tests.</li>
+  <li>Managed client support via <strong>Zendesk</strong>, ensuring high satisfaction.</li>
+</ul>
+
+{{< /timelineItem >}}
+
+{{< timelineItem icon="star" header="Senior Software Engineer – Elegant Media (Australia)" badge="Feb 2019 – Aug 2020" >}}
+
+**PHP | Laravel | Vue.js | Stripe | Firebase | Mapbox GL**
+
+<ul>
+  <li>Led a <strong>team of 10+ developers</strong> in <strong>e-commerce and finance projects</strong>.</li>
+  <li>Developed <strong>10+ Agile web applications</strong> from architecture to deployment.</li>
+  <li>Built <strong>custom Laravel libraries</strong>, improving code efficiency.</li>
+</ul>
+
+{{< /timelineItem >}}
+
+{{< timelineItem icon="star" header="Software Engineer – OrangeHRM Inc." badge="Oct 2016 – Jan 2019" >}}
+
+**Symfony | PHP 5.6 | AngularJS | RabbitMQ | Docker | TDD**
+
+<ul>
+  <li>Developed HR Management System enhancements, optimizing <strong>employee onboarding</strong>.</li>
+  <li>Implemented <strong>SonarQube</strong> for <strong>code quality analysis</strong>.</li>
+  <li>Practiced <strong>Test-Driven Development (TDD)</strong> and <strong>CI/CD pipelines</strong>.</li>
 </ul>
 
 {{< /timelineItem >}}
 
 {{< /timeline >}}
 
-### 🔹 **Senior Backend Engineer – Freelancer (Aug 2024 – Dec 2024)**  
-**Symfony 6 | Docker | Elasticsearch | Doctrine | Hexagonal Architecture**  
-- Redesigned **demographic data storage**, improving efficiency for **1M+ users**.  
-- Built **robust data export functionality** for large-scale reporting.  
-- Implemented **Elasticsearch** for lightning-fast search and data retrieval.  
-- Applied **SOLID principles**, boosting maintainability and scalability.  
-
-### 🔹 **Senior Full Stack Developer – Subscriby AB, Stockholm (Jan 2024 – Jun 2024)**  
-**TypeScript | React 18 | Remix | Tailwind CSS | GraphQL | PostgreSQL**  
-- Developed a **Subscription Management System MVP** within **2 months**.  
-- Conducted **code reviews**, achieving **80% reliability** and stability.  
-- Created **custom Shopify-integrated applications**, securing **3 clients** post-development.  
-
-### 🔹 **Senior Software Engineer – Valuein (France) (Aug 2020 – Jun 2023)**  
-**Symfony 3.4 | PHP 7 | Microservices | Stripe | Zuora | REST APIs**  
-- Developed and optimized a **SaaS platform** for **subscription-based businesses**.  
-- Enhanced **test coverage to 80%** with automated tests.  
-- Managed client support via **Zendesk**, ensuring high satisfaction.  
-
-### 🔹 **Senior Software Engineer – Elegant Media (Australia) (Feb 2019 – Aug 2020)**  
-**PHP | Laravel | Vue.js | Stripe | Firebase | Mapbox GL**  
-- Led a **team of 10+ developers** in **e-commerce and finance projects**.  
-- Developed **10+ Agile web applications** from architecture to deployment.  
-- Built **custom Laravel libraries**, improving code efficiency.  
-
-### 🔹 **Software Engineer – OrangeHRM Inc. (Oct 2016 – Jan 2019)**  
-**Symfony | PHP 5.6 | AngularJS | RabbitMQ | Docker | TDD**  
-- Developed HR Management System enhancements, optimizing **employee onboarding**.  
-- Implemented **SonarQube** for **code quality analysis**.  
-- Practiced **Test-Driven Development (TDD)** and **CI/CD pipelines**.  
-
----
-
 ## 🎓 **Education**  
 - **🎓 Bachelor of Information Technology** – University of Colombo (Graduated 2019)  
 - **📜 Comprehensive Master Java Developer Certification** – IJSE, Sri Lanka (2013 – 2014)  
 
 ---
-
-
-
 
 ## 🔥 **Core Skills & Expertise**  
 ✅ **PHP, Laravel, Symfony** – Advanced expertise in backend development.  
