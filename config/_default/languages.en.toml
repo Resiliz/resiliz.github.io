@@ -8,10 +8,10 @@ title = "Resiliz"
   displayName = "EN"
   isoCode = "en"
   rtl = false
-  dateFormat = "2 January 2006"
+  dateFormat = "23 March 2025"
   logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  description = "My awesome website"
+  description = "Viraj's Official website"
   copyright = "© 2024 Resiliz. All rights reserved."
 
  [params.author]
