@@ -38,6 +38,9 @@ enableEmoji = true
   filename = 'sitemap.xml'
   priority = 0.5
 
+[params.search]
+enabled = true
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
