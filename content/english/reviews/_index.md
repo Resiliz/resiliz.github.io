@@ -4,7 +4,7 @@
 
 
 {{< gallery >}}
-<img src="reviews/gallery/1.png" class="grid-w50 md:grid-w50 xl:grid-w50 " />
+<img src="reviews/gallery/1.png" class="grid-w50 md:grid-w50 xl:grid-w50" />
 <img src="reviews/gallery/2.png" class="grid-w50 md:grid-w50 xl:grid-w50" />
 <img src="reviews/gallery/3.png" class="grid-w50 md:grid-w50 xl:grid-w50" />
 <img src="reviews/gallery/4.png" class="grid-w50 md:grid-w50 xl:grid-w50" />
