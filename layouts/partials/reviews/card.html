@@ -2,13 +2,9 @@
         <h3 class="mt-8 text-2xl font-bold mb-10 text-center">Every great story is shaped by the people in it. <br>
             These are their reflections on my shared path.</h3>
         <div class="mt-8"></div>
-        <div class="flex flex-wrap justify-center">
-            <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div class="bg-white rounded-lg shadow-2xl p-4">
-                            {{ $content := readFile "content/english/reviews/_index.md" }}
-                            {{ $rendered := $content | markdownify }}
-                            {{ $rendered }}
-            </div>
-                </div>
+        <div>
+                {{ $content := readFile "content/english/reviews/_index.md" }}
+                {{ $rendered := $content | markdownify }}
+                {{ $rendered }}
         </div>
     </div>
