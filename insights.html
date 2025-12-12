@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights | Resiliz</title>
+    <meta name="description" content="Resiliz Insights - Latest thinking on Software Engineering, AI, and Cloud Strategy.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'] }, colors: { primary: '#0066ff', secondary: '#1a1a1a', accent: '#ff6600', surface: '#f4f4f4' } } }
+        }
+    </script>
+     <style>
+        .nav-link { position: relative; }
+        .nav-link::after { content: ''; position: absolute; width: 0; height: 2px; bottom: -4px; left: 0; background-color: #0066ff; transition: width 0.3s; }
+        .nav-link:hover::after { width: 100%; }
+    </style>
+</head>
+<body class="font-sans text-secondary bg-white antialiased">
+    <!-- Navigation -->
+    <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
+        <div class="container mx-auto px-6 py-5 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-black tracking-tighter hover:text-primary transition-colors">RESILIZ.</a>
+            <nav class="hidden md:flex space-x-10 text-sm font-bold uppercase tracking-wide">
+                <a href="services.html" class="nav-link hover:text-primary transition">Services</a>
+                <a href="work.html" class="nav-link hover:text-primary transition">Work</a>
+                <a href="insights.html" class="nav-link text-primary transition">Insights</a>
+                <a href="about.html" class="nav-link hover:text-primary transition">About</a>
+            </nav>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="contact.html" class="px-6 py-2.5 bg-black text-white text-sm font-bold hover:bg-primary transition-colors duration-300">Contact Us</a>
+            </div>
+            <button id="mobile-menu-btn" class="md:hidden text-2xl focus:outline-none"><i class="fas fa-bars"></i></button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full left-0 h-screen p-8">
+            <nav class="flex flex-col space-y-6 text-xl font-bold">
+                 <a href="services.html" class="hover:text-primary">Services</a>
+                <a href="work.html" class="hover:text-primary">Work</a>
+                <a href="insights.html" class="text-primary">Insights</a>
+                <a href="about.html" class="hover:text-primary">About</a>
+                <a href="contact.html" class="text-primary mt-4">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Insights Header -->
+    <section class="pt-48 pb-16 px-6 bg-surface">
+        <div class="container mx-auto max-w-6xl">
+            <h1 class="text-5xl md:text-6xl font-black mb-6">Perspectives.</h1>
+            <p class="text-xl text-gray-600 max-w-2xl">Our latest thinking on the technologies shaping the future.</p>
+        </div>
+    </section>
+
+    <!-- Articles Grid -->
+    <section class="py-24 px-6">
+        <div class="container mx-auto max-w-6xl">
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Insight 1 -->
+                <a href="#" class="block group">
+                     <div class="h-48 w-full mb-6 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Code" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                     </div>
+                    <h4 class="text-xl font-bold mb-4 group-hover:text-primary transition-colors">TypeScript Best Practices 2025</h4>
+                    <p class="text-gray-600 text-sm mb-4">Ensuring type safety in large-scale enterprise applications requires a shift in mindset...</p>
+                    <span class="text-xs font-bold uppercase tracking-wide text-gray-400">Software Engineering</span>
+                </a>
+                
+                <!-- Insight 2 -->
+                <a href="#" class="block group">
+                     <div class="h-48 w-full mb-6 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="AI" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                     </div>
+                    <h4 class="text-xl font-bold mb-4 group-hover:text-primary transition-colors">The GenAI guide to financial industry excellence</h4>
+                    <p class="text-gray-600 text-sm mb-4">How we use LLMs to accelerate debugging and safely generate boilerplate for secure systems...</p>
+                    <span class="text-xs font-bold uppercase tracking-wide text-gray-400">Artificial Intelligence</span>
+                </a>
+
+                <!-- Insight 3 -->
+                <a href="#" class="block group">
+                     <div class="h-48 w-full mb-6 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cloud" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                     </div>
+                    <h4 class="text-xl font-bold mb-4 group-hover:text-primary transition-colors">Mastering DevOps with AWS</h4>
+                     <p class="text-gray-600 text-sm mb-4">Building resilient CI/CD pipelines for zero-downtime deployments in a 24/7 world...</p>
+                    <span class="text-xs font-bold uppercase tracking-wide text-gray-400">Cloud Strategy</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white pt-24 pb-12 px-6">
+        <div class="container mx-auto max-w-6xl">
+            <div class="flex flex-col md:flex-row justify-between items-center md:items-start mb-24">
+                <div>
+                     <a href="index.html" class="text-3xl font-black tracking-tighter mb-8 block">RESILIZ.</a>
+                     <p class="text-gray-400 max-w-xs">Building the digital backbone of tomorrow.</p>
+                </div>
+                 <div class="mt-10 md:mt-0">
+                    <a href="contact.html" class="px-8 py-3 bg-white text-black font-bold hover:bg-gray-200 transition-colors">Start a Project</a>
+                </div>
+            </div>
+             <div class="border-t border-gray-800 pt-12 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+                <p>&copy; 2025 Resiliz. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+             document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

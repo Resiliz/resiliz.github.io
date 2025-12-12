@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work | Resiliz</title>
+    <meta name="description" content="Resiliz Case Studies - Travelee, Laraauto, Stellinata, Super Schedule. Real world impact.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'] }, colors: { primary: '#0066ff', secondary: '#1a1a1a', accent: '#ff6600', surface: '#f4f4f4' } } }
+        }
+    </script>
+     <style>
+        .nav-link { position: relative; }
+        .nav-link::after { content: ''; position: absolute; width: 0; height: 2px; bottom: -4px; left: 0; background-color: #0066ff; transition: width 0.3s; }
+        .nav-link:hover::after { width: 100%; }
+    </style>
+</head>
+<body class="font-sans text-secondary bg-white antialiased">
+    <!-- Navigation -->
+    <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
+        <div class="container mx-auto px-6 py-5 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-black tracking-tighter hover:text-primary transition-colors">RESILIZ.</a>
+            <nav class="hidden md:flex space-x-10 text-sm font-bold uppercase tracking-wide">
+                <a href="services.html" class="nav-link hover:text-primary transition">Services</a>
+                <a href="work.html" class="nav-link text-primary transition">Work</a>
+                <a href="insights.html" class="nav-link hover:text-primary transition">Insights</a>
+                <a href="about.html" class="nav-link hover:text-primary transition">About</a>
+            </nav>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="contact.html" class="px-6 py-2.5 bg-black text-white text-sm font-bold hover:bg-primary transition-colors duration-300">Contact Us</a>
+            </div>
+            <button id="mobile-menu-btn" class="md:hidden text-2xl focus:outline-none"><i class="fas fa-bars"></i></button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full left-0 h-screen p-8">
+            <nav class="flex flex-col space-y-6 text-xl font-bold">
+                 <a href="services.html" class="hover:text-primary">Services</a>
+                <a href="work.html" class="text-primary">Work</a>
+                <a href="insights.html" class="hover:text-primary">Insights</a>
+                <a href="about.html" class="hover:text-primary">About</a>
+                <a href="contact.html" class="text-primary mt-4">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Work Header -->
+    <section class="pt-48 pb-16 px-6 bg-secondary text-white">
+        <div class="container mx-auto max-w-6xl">
+            <h1 class="text-5xl md:text-6xl font-black mb-6">Client Stories.</h1>
+            <p class="text-xl text-gray-400 max-w-2xl">Real world results delivering impact across industries from FinTech to HealthTech.</p>
+        </div>
+    </section>
+
+    <!-- Project Grid -->
+    <section class="py-24 px-6">
+        <div class="container mx-auto max-w-6xl">
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Case Study 1 -->
+                <article class="group cursor-pointer">
+                    <div class="bg-gray-800 h-80 w-full mb-6 overflow-hidden relative">
+                         <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Travelee" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60">
+                        <div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/10 transition-colors"></div>
+                        <div class="absolute bottom-8 left-8">
+                            <span class="text-xs uppercase font-bold tracking-wider bg-white text-secondary px-3 py-1.5">Travel Tech</span>
+                        </div>
+                    </div>
+                    <h4 class="text-3xl font-bold mb-3 group-hover:text-primary transition-colors">Travelee</h4>
+                    <p class="text-gray-600 mb-6 text-lg">Comprehensive travel booking and management platform built with Laravel & React. We streamlined the booking flow and integrated real-time inventory management.</p>
+                     <div class="flex gap-2 mb-4">
+                        <span class="text-xs font-bold border border-gray-200 px-2 py-1 rounded">Laravel</span>
+                        <span class="text-xs font-bold border border-gray-200 px-2 py-1 rounded">React</span>
+                    </div>
+                </article>
+
+                <!-- Case Study 2 -->
+                <article class="group cursor-pointer">
+                    <div class="bg-gray-800 h-80 w-full mb-6 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Automotive" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60">
+                        <div class="absolute inset-0 bg-accent/20 group-hover:bg-accent/10 transition-colors"></div>
+                        <div class="absolute bottom-8 left-8">
+                            <span class="text-xs uppercase font-bold tracking-wider bg-white text-secondary px-3 py-1.5">Automotive</span>
+                        </div>
+                    </div>
+                    <h4 class="text-3xl font-bold mb-3 group-hover:text-accent transition-colors">Laraauto.com.au</h4>
+                    <p class="text-gray-600 mb-6 text-lg">Marketplace and dealership management solution empowering automotive sales with robust search and inventory tools.</p>
+                    <div class="flex gap-2 mb-4">
+                        <span class="text-xs font-bold border border-gray-200 px-2 py-1 rounded">Laravel</span>
+                        <span class="text-xs font-bold border border-gray-200 px-2 py-1 rounded">Vue.js</span>
+                    </div>
+                </article>
+
+                 <!-- Case Study 3 -->
+                 <article class="group cursor-pointer">
+                    <div class="bg-gray-800 h-80 w-full mb-6 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="E-Commerce" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60">
+                        <div class="absolute inset-0 bg-purple-900/40 group-hover:bg-purple-900/20 transition-colors"></div>
+                        <div class="absolute bottom-8 left-8">
+                            <span class="text-xs uppercase font-bold tracking-wider bg-white text-secondary px-3 py-1.5">E-Commerce</span>
+                        </div>
+                    </div>
+                    <h4 class="text-3xl font-bold mb-3 group-hover:text-primary transition-colors">Stellinata</h4>
+                    <p class="text-gray-600 mb-6 text-lg">A premium, high-conversion e-commerce experience for boutique brands using Shopify. Custom theme development and liquid optimization.</p>
+                     <div class="flex gap-2 mb-4">
+                        <span class="text-xs font-bold border border-gray-200 px-2 py-1 rounded">Shopify</span>
+                        <span class="text-xs font-bold border border-gray-200 px-2 py-1 rounded">Liquid</span>
+                    </div>
+                </article>
+
+                <!-- Case Study 4 -->
+                <article class="group cursor-pointer">
+                    <div class="bg-gray-800 h-80 w-full mb-6 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="SaaS" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60">
+                        <div class="absolute inset-0 bg-blue-900/40 group-hover:bg-blue-900/20 transition-colors"></div>
+                        <div class="absolute bottom-8 left-8">
+                            <span class="text-xs uppercase font-bold tracking-wider bg-white text-secondary px-3 py-1.5">SaaS</span>
+                        </div>
+                    </div>
+                    <h4 class="text-3xl font-bold mb-3 group-hover:text-primary transition-colors">Super Schedule</h4>
+                    <p class="text-gray-600 mb-6 text-lg">Advanced resource scheduling and management system optimization. Improved performance and user experience for complex scheduling tasks.</p>
+                     <div class="flex gap-2 mb-4">
+                        <span class="text-xs font-bold border border-gray-200 px-2 py-1 rounded">Node.js</span>
+                        <span class="text-xs font-bold border border-gray-200 px-2 py-1 rounded">React</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white pt-24 pb-12 px-6">
+        <div class="container mx-auto max-w-6xl">
+            <div class="flex flex-col md:flex-row justify-between items-center md:items-start mb-24">
+                <div>
+                     <a href="index.html" class="text-3xl font-black tracking-tighter mb-8 block">RESILIZ.</a>
+                     <p class="text-gray-400 max-w-xs">Building the digital backbone of tomorrow.</p>
+                </div>
+                 <div class="mt-10 md:mt-0">
+                    <a href="contact.html" class="px-8 py-3 bg-white text-black font-bold hover:bg-gray-200 transition-colors">Start a Project</a>
+                </div>
+            </div>
+             <div class="border-t border-gray-800 pt-12 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+                <p>&copy; 2025 Resiliz. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+             document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
