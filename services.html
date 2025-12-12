@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Resiliz</title>
+    <meta name="description" content="Resiliz Services - Custom Software Development, SaaS Solutions, Data AI & ML, Cloud & DevOps, and Platform Strategy.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#0066ff',
+                        secondary: '#1a1a1a',
+                        accent: '#ff6600',
+                        surface: '#f4f4f4',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .nav-link { position: relative; }
+        .nav-link::after {
+            content: ''; position: absolute; width: 0; height: 2px; bottom: -4px; left: 0;
+            background-color: #0066ff; transition: width 0.3s;
+        }
+        .nav-link:hover::after { width: 100%; }
+    </style>
+</head>
+<body class="font-sans text-secondary bg-white antialiased">
+
+    <!-- Navigation -->
+    <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
+        <div class="container mx-auto px-6 py-5 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-black tracking-tighter hover:text-primary transition-colors">RESILIZ.</a>
+            <nav class="hidden md:flex space-x-10 text-sm font-bold uppercase tracking-wide">
+                <a href="services.html" class="nav-link text-primary transition">Services</a>
+                <a href="work.html" class="nav-link hover:text-primary transition">Work</a>
+                <a href="insights.html" class="nav-link hover:text-primary transition">Insights</a>
+                <a href="about.html" class="nav-link hover:text-primary transition">About</a>
+            </nav>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="contact.html" class="px-6 py-2.5 bg-black text-white text-sm font-bold hover:bg-primary transition-colors duration-300">Contact Us</a>
+            </div>
+            <button id="mobile-menu-btn" class="md:hidden text-2xl focus:outline-none"><i class="fas fa-bars"></i></button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full left-0 h-screen p-8">
+            <nav class="flex flex-col space-y-6 text-xl font-bold">
+                <a href="services.html" class="text-primary">Services</a>
+                <a href="work.html" class="hover:text-primary">Work</a>
+                <a href="insights.html" class="hover:text-primary">Insights</a>
+                <a href="about.html" class="hover:text-primary">About</a>
+                <a href="contact.html" class="text-primary mt-4">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Services Header -->
+    <section class="pt-48 pb-16 px-6 bg-surface">
+        <div class="container mx-auto max-w-6xl">
+            <h1 class="text-5xl md:text-6xl font-black mb-6">Our Capabilities.</h1>
+            <p class="text-xl text-gray-600 max-w-2xl">We build the digital backbone for modern enterprises. From core engineering to AI integration, our services are designed for impact.</p>
+        </div>
+    </section>
+
+    <!-- Detailed Services Grid -->
+    <section class="py-24 px-6">
+        <div class="container mx-auto max-w-6xl">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
+                <!-- Service Item -->
+                <div class="group">
+                    <div class="h-1 w-12 bg-gray-200 group-hover:bg-primary transition-colors duration-300 mb-6"></div>
+                    <h4 class="text-2xl font-bold mb-4">Custom Software Development</h4>
+                    <p class="text-gray-600 leading-relaxed mb-4">Bespoke applications built with clean, maintainable code using Laravel, PHP, and Java. We modernize legacy systems for the cloud era, ensuring scalability and security from day one.</p>
+                </div>
+
+                <!-- Service Item -->
+                <div class="group">
+                    <div class="h-1 w-12 bg-gray-200 group-hover:bg-accent transition-colors duration-300 mb-6"></div>
+                    <h4 class="text-2xl font-bold mb-4">SaaS Solutions</h4>
+                    <p class="text-gray-600 leading-relaxed mb-4">From MVP to IPO, we design multi-tenant platforms that handle high concurrency, integrated payments (Stripe), and seamless user management. We understand the product lifecycle.</p>
+                </div>
+
+                <!-- Service Item -->
+                <div class="group">
+                    <div class="h-1 w-12 bg-gray-200 group-hover:bg-secondary transition-colors duration-300 mb-6"></div>
+                    <h4 class="text-2xl font-bold mb-4">Data, AI & ML</h4>
+                    <p class="text-gray-600 leading-relaxed mb-4">Infusing smart capabilities into traditional software. From predictive analytics to LLM integration, we make your data work harder and unlock new business value.</p>
+                </div>
+
+                <!-- Service Item -->
+                <div class="group">
+                    <div class="h-1 w-12 bg-gray-200 group-hover:bg-primary transition-colors duration-300 mb-6"></div>
+                    <h4 class="text-2xl font-bold mb-4">Cloud & DevOps</h4>
+                    <p class="text-gray-600 leading-relaxed mb-4">Seamless connectivity and automated CI/CD pipelines using AWS and Docker. We ensure your infrastructure is resilient, scalable, and cost-optimized.</p>
+                </div>
+
+                <!-- Service Item -->
+                <div class="group">
+                    <div class="h-1 w-12 bg-gray-200 group-hover:bg-accent transition-colors duration-300 mb-6"></div>
+                    <h4 class="text-2xl font-bold mb-4">Platform Strategy</h4>
+                    <p class="text-gray-600 leading-relaxed mb-4">Strategic guidance on system design, database optimization, and security compliance to future-proof your enterprise. We help you make the right architectural decisions.</p>
+                </div>
+                 <!-- Service Item -->
+                 <div class="group">
+                    <div class="h-1 w-12 bg-gray-200 group-hover:bg-secondary transition-colors duration-300 mb-6"></div>
+                    <h4 class="text-2xl font-bold mb-4">Enterprise Consulting</h4>
+                    <p class="text-gray-600 leading-relaxed mb-4">We partner with CTOs and technical leaders to solve their most complex challenges, providing expert insights and hands-on engineering leadership.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white pt-24 pb-12 px-6">
+        <div class="container mx-auto max-w-6xl">
+            <div class="flex flex-col md:flex-row justify-between items-center md:items-start mb-24">
+                <div>
+                     <a href="index.html" class="text-3xl font-black tracking-tighter mb-8 block">RESILIZ.</a>
+                     <p class="text-gray-400 max-w-xs">Building the digital backbone of tomorrow.</p>
+                </div>
+                 <div class="mt-10 md:mt-0">
+                    <a href="contact.html" class="px-8 py-3 bg-white text-black font-bold hover:bg-gray-200 transition-colors">Start a Project</a>
+                </div>
+            </div>
+             <div class="border-t border-gray-800 pt-12 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+                <p>&copy; 2025 Resiliz. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
